@@ -26,17 +26,17 @@ splitDependencies(packages, packagesArr);
 
 //turn the packagesArr from a multidimensional array into a standard array
 packagesArr = packagesArr.toString().split(',');
-//console.log(packagesArr);
+console.log(packagesArr);
 
 
 //loop through array and remove colons at end
 /*for (var i = 0; i < packagesArr.length; i++) {
 	if (packagesArr[i].charAt(packagesArr[i].length - 1) === ':') {
-		packagesArr[i].charAt(packagesArr[i].length - 1).splice(0, 1);
+		packagesArr[i].charAt(packagesArr[i].length - 1).splice();
 	}
-}*/
+}
 
-console.log(packagesArr);
+console.log(packagesArr);*/
 
 //loop through the array and see if some items are duplicates, if they are, remove duplicates, but add number to a count to show that package as important
 var countArr = [];
